@@ -7,6 +7,7 @@ public abstract class   Student {
 	private String category;
 	private double collegeFee;
 	public int getStudentId() {
+		
 		return this.studentId;
 	}
 	public String getStudentName() {
@@ -44,6 +45,7 @@ public abstract class   Student {
 	}
 	public Student(int studentId, String studentName, String category, String department, String gender, double collegeFee )
 	{
+		super();
 		this.studentId = studentId;
 		this.studentName = studentName;
 		this.department = department;
